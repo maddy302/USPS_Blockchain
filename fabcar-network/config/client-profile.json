@@ -1,0 +1,23 @@
+{
+    "version": "1.0.3",
+    "client": {
+        "organization": "org1",
+        "connection": {
+            "timeout": {
+                "peer": {
+                    "endorser": "300",
+                    "eventHub": "300",
+                    "eventReg": "300"
+                },
+                "orderer": "300"
+            }
+        },
+        "x-organizationName": "Company A",
+        "credentialStore": {
+            "path": "./hfc-key-store",
+            "cryptoStore": {
+                "path": "./hfc-key-store"
+            }
+        }
+    }
+}
